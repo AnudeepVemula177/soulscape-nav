@@ -15,6 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        wellness: "bg-gradient-wellness text-wellness-green-foreground hover:opacity-90",
+        "wellness-purple": "bg-wellness-purple text-wellness-purple-foreground hover:bg-wellness-purple/90",
+        "wellness-green": "bg-wellness-green text-wellness-green-foreground hover:bg-wellness-green/90",
+        "wellness-blue": "bg-wellness-blue text-wellness-blue-foreground hover:bg-wellness-blue/90",
+        "wellness-orange": "bg-wellness-orange text-wellness-orange-foreground hover:bg-wellness-orange/90",
       },
       size: {
         default: "h-10 px-4 py-2",

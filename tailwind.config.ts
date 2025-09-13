@@ -22,10 +22,33 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          soft: "hsl(var(--primary-soft))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          soft: "hsl(var(--secondary-soft))",
+        },
+        wellness: {
+          green: "hsl(var(--wellness-green))",
+          "green-foreground": "hsl(var(--wellness-green-foreground))",
+          "green-soft": "hsl(var(--wellness-green-soft))",
+          blue: "hsl(var(--wellness-blue))",
+          "blue-foreground": "hsl(var(--wellness-blue-foreground))",
+          "blue-soft": "hsl(var(--wellness-blue-soft))",
+          purple: "hsl(var(--wellness-purple))",
+          "purple-foreground": "hsl(var(--wellness-purple-foreground))",
+          "purple-soft": "hsl(var(--wellness-purple-soft))",
+          orange: "hsl(var(--wellness-orange))",
+          "orange-foreground": "hsl(var(--wellness-orange-foreground))",
+          "orange-soft": "hsl(var(--wellness-orange-soft))",
+        },
+        mood: {
+          excellent: "hsl(var(--mood-excellent))",
+          good: "hsl(var(--mood-good))",
+          fair: "hsl(var(--mood-fair))",
+          poor: "hsl(var(--mood-poor))",
+          critical: "hsl(var(--mood-critical))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +80,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-wellness": "var(--gradient-wellness)",
+        "gradient-soft": "var(--gradient-soft)",
       },
       borderRadius: {
         lg: "var(--radius)",

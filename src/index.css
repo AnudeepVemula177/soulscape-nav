@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Wellness Platform Design System - Calming healthcare colors */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors - Soft, calming palette */
+    --background: 200 20% 98%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Calming blue for trust and wellness */
+    --primary: 210 100% 56%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 210 100% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Soft purple for mindfulness */
+    --secondary: 260 60% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-soft: 260 60% 96%;
+
+    /* Wellness-specific colors */
+    --wellness-green: 145 63% 49%;
+    --wellness-green-foreground: 0 0% 100%;
+    --wellness-green-soft: 145 63% 95%;
+
+    --wellness-blue: 200 98% 39%;
+    --wellness-blue-foreground: 0 0% 100%;
+    --wellness-blue-soft: 200 98% 96%;
+
+    --wellness-purple: 265 89% 70%;
+    --wellness-purple-foreground: 0 0% 100%;
+    --wellness-purple-soft: 265 89% 96%;
+
+    --wellness-orange: 25 95% 53%;
+    --wellness-orange-foreground: 0 0% 100%;
+    --wellness-orange-soft: 25 95% 96%;
+
+    /* Mood colors */
+    --mood-excellent: 265 89% 70%;
+    --mood-good: 145 63% 49%;
+    --mood-fair: 45 93% 47%;
+    --mood-poor: 25 95% 53%;
+    --mood-critical: 0 84% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--wellness-purple)));
+    --gradient-wellness: linear-gradient(135deg, hsl(var(--wellness-green)), hsl(var(--wellness-blue)));
+    --gradient-soft: linear-gradient(135deg, hsl(var(--primary-soft)), hsl(var(--secondary-soft)));
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -34,9 +66,9 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 210 100% 56%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
